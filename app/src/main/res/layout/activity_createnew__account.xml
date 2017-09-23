@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9DFD2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText   android:id="@+id/newusename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:minHeight="10dp"
+                android:textColorHint="#A0A0A0"
+                android:background="@drawable/customedittext"
+                />
+
+
+            <EditText   android:id="@+id/newemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:minHeight="15dp"
+                android:textColorHint="#A0A0A0"
+                android:background="@drawable/customedittext"
+                />
+
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/newpassword1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:minHeight="15dp"
+                android:textColorHint="#A0A0A0"
+                android:background="@drawable/customedittext"
+                />
+
+
+            <EditText android:inputType="textPassword"
+                android:id="@+id/newpassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-Enter Password"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:minHeight="15dp"
+                android:textColorHint="#A0A0A0"
+                android:background="@drawable/customedittext"
+                />
+
+            <EditText   android:id="@+id/newmobilenumber"
+                android:layout_width="match_parent"
+                android:inputType="numberPassword"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:minHeight="15dp"
+                android:textColorHint="#A0A0A0"
+                android:background="@drawable/customedittext"
+                />
+
+            <Button     android:id="@+id/newaccountnext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:text="next "
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:background="@drawable/loginbutton"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

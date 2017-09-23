@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.av.mirror.angelhack.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            >
+            <ImageView android:id="@+id/im"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:src="@drawable/food"
+              android:scaleType="centerCrop"
+     />
+
+             <ImageView
+             android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:src="@drawable/food2"
+               android:scaleType="centerCrop"
+              />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/fd3"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/fd4"
+                android:scaleType="centerCrop"/>
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in/ sign up"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_gravity="bottom"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/loginbutton"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+    <ImageView  android:id="@+id/foodhub"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/foodhub"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="15dp"
+
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/fudluv"
+        android:scaleType="centerCrop"
+        />
+
+</FrameLayout>

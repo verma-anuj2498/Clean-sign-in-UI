@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->#FAD18D
+        <item name="colorPrimary">#F94106</item>
+        <item name="colorPrimaryDark">#C4390C</item>
+        <item name="colorAccent">#C37218</item>
+    </style>
+
+    <style name="NoBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
